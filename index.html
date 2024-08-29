@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supermercado - Contacto</title>
+</head>
+
+<body bgcolor="lightyellow">
+    <table width="100%" height="200">
+        <tr>
+            <td width="30%">
+                <center><img src="./logo.jpg" width="200" height="200" alt="Logo Supermercado"></center>
+            </td>
+            <td>
+                <center>
+                    <p>
+                    <h3>
+                        <font color="green">SUPERMERCADO EL CASERO</font>
+                    </h3>
+                    </p>
+                    <p>
+                    <h1>
+                        <font color="darkblue">Estamos Para Ayudarte</font>
+                    </h1>
+                    </p>
+                </center>
+            </td>
+        </tr>
+    </table>
+    
+    <table width="100%">
+        <tr bgcolor="darkgreen" height="30">
+            <td width="25%">
+                <font size="6" color="white">
+                    <center>Inicio</center>
+                </font>
+            </td>
+            <td width="25%">
+                <font size="6" color="white">
+                    <center>Productos</center>
+                </font>
+            </td>
+            <td width="25%">
+                <font size="6" color="white">
+                    <center>Servicios</center>
+                </font>
+            </td>
+            <td width="25%">
+                <font size="6" color="white">
+                    <center>Contacto</center>
+                </font>
+            </td>
+        </tr>
+    </table>
+    
+    <table width="100%">
+        <tr height="400">
+            <td width="30%">
+                <marquee behavior="alternate">
+                    <h1>
+                        <font color="darkred">¡Todo lo que Necesitas!</font>
+                    </h1>
+                </marquee>
+                <marquee behavior="alternate">
+                   <center> <img src="./frutas.jfif" alt="frutas" height="200" width="200">
+                    <img src="./lacteos.jpg" alt="lacteos" height="200" width="200">
+                    <img src="./VERDURAS.jpg" alt="VERDURAS" height="200" width="200"></center>
+                </marquee>
+            </td>
+            <td width="35%">
+                <center>
+                    <form>
+                        <p>
+                            <label for="frutas">Selecciona Frutas:</label><br>
+                            <select id="frutas" name="frutas">
+                                <option value="">Selecciona una opción</option>
+                                <option value="manzanas">Manzanas</option>
+                                <option value="bananas">Bananas</option>
+                                <option value="naranjas">Naranjas</option>
+                                <option value="uvas">Uvas</option>
+                            </select>
+                        </p>
+                        <p>
+                            <label for="vegetales">Selecciona Vegetales:</label><br>
+                            <select id="vegetales" name="vegetales">
+                                <option value="">Selecciona una opción</option>
+                                <option value="zanahorias">Zanahorias</option>
+                                <option value="brocoli">Brócoli</option>
+                                <option value="espinacas">Espinacas</option>
+                                <option value="papas">Papas</option>
+                            </select>
+                        </p>
+                        <p>
+                            <label for="lacteos">Selecciona Lácteos:</label><br>
+                            <select id="lacteos" name="lacteos">
+                                <option value="">Selecciona una opción</option>
+                                <option value="leche">Leche</option>
+                                <option value="yogurt">Yogurt</option>
+                                <option value="queso">Queso</option>
+                                <option value="mantequilla">Mantequilla</option>
+                            </select>
+                        </p>
+                        <p>
+                            <label for="bebidas">Selecciona Bebidas:</label><br>
+                            <select id="bebidas" name="bebidas">
+                                <option value="">Selecciona una opción</option>
+                                <option value="agua">Agua</option>
+                                <option value="jugos">Jugos</option>
+                                <option value="refrescos">Refrescos</option>
+                                <option value="bebidas-energeticas">Bebidas Energéticas</option>
+                            </select>
+                        </p>
+                        <p>
+                            <label for="comentarios">Comentarios Adicionales:</label><br>
+                            <textarea id="comentarios" name="comentarios" rows="4"></textarea>
+                        </p>
+                        <p>
+                            <input type="submit" value="Enviar">
+                        </p>
+                    </form>
+                </center>
+            </td>
+            <td width="35%">
+                <center>
+                    <form>
+                        <p>
+                            <label for="nombre">Nombre:</label><br>
+                            <input type="text" id="nombre" name="nombre" required>
+                        </p>
+                        <p>
+                            <label for="email">Correo Electrónico:</label><br>
+                            <input type="email" id="email" name="email" required>
+                        </p>
+                        <p>
+                            <label for="telefono">Teléfono:</label><br>
+                            <input type="tel" id="telefono" name="telefono">
+                        </p>
+                        <p>
+                            <label for="lugar-entrega">Lugar de Entrega:</label><br>
+                            <select id="lugar-entrega" name="lugar-entrega">
+                                <option value="">Selecciona una opción</option>
+                                <option value="domicilio">Domicilio</option>
+                                <option value="oficina">Oficina</option>
+                                <option value="punto-recolecta">Punto de Recolecta</option>
+                            </select>
+                        </p>
+                        <p>
+                            <label for="fecha">Fecha de Entrega Preferida:</label><br>
+                            <input type="date" id="fecha" name="fecha">
+                        </p>
+                        <p>
+                            <label for="comentarios">Comentarios Adicionales:</label><br>
+                            <textarea id="comentarios" name="comentarios" rows="4"></textarea>
+                        </p>
+                        <p>
+                            <input type="submit" value="Enviar">
+                        </p>
+                    </form>
+                </center>
+            </td>
+        </tr>
+    </table>
+    <table width="100%">
+        <tr height="100">
+            <td width="100%">
+                <center><h1>
+                    <font color="blue">Diseñado Por Fernando Cruz Cruz</font>
+                </h1></center>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
